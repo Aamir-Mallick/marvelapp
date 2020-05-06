@@ -1,0 +1,977 @@
+@media (min-width: 1000px) {
+  .top-main {
+    padding-top: 50px;
+    width: 800px;
+    width: 800px;
+
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+  }
+  .top-left {
+    width: 385px;
+    height: 250px;
+
+    box-sizing: border-box;
+    height: 230px;
+    margin-top: 70px;
+  }
+  .looking-for-a-lollip {
+    margin-top: 0px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 380px;
+    text-align: left;
+  }
+  .text-body {
+    margin-top: -15px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 380px;
+    text-align: left;
+  }
+  .bg {
+    background-color: #0099ff;
+    border-radius: 3px;
+    width: 170px;
+    height: 38px;
+  }
+  .cta-text {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .outline {
+    margin-left: 20px;
+    border: 2px solid #0099ff;
+    border-radius: 3px;
+    width: 170px;
+    height: 38px;
+  }
+  .top-right {
+    width: 351px;
+    height: 351px;
+  }
+  .top-right img {
+    width: 350px;
+    height: 350px;
+  }
+  .header-div {
+    margin: 80px auto;
+    background-image: linear-gradient(44.59deg, #d5e2e9 0%, #eaeef1 40%);
+    width: 1000px;
+    height: 409px;
+  }
+  .content-div {
+    margin: 0px auto;
+    position: relative;
+    top: -200px;
+
+    width: 735px;
+  }
+  .header-text {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .pricing-text {
+    width: 400px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: center;
+    margin: 0px auto;
+    margin-top: -130px;
+  }
+  .testing {
+    width: 420px;
+
+    margin: 0px auto;
+  }
+  .lorem-ipsum-is-simpl {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 449px;
+    text-align: center;
+  }
+  .btn-main {
+    width: 380px;
+    margin: 30px auto;
+    display: flex;
+  }
+  .btn {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+    height: 40px;
+    color: #4a4a4a;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 165px;
+  }
+  .change-btn {
+    margin: 10px auto;
+    width: 200px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .check-box {
+    position: relative;
+    width: 60px;
+    height: 20px;
+    appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px #bebcbe;
+    transition: 0.5s;
+  }
+  .check-box:checked {
+    background: #c6c6c6;
+  }
+  .check-box::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: blue;
+    border-radius: 20px;
+    top: -5px;
+    left: 0px;
+    transition: 0.5s;
+  }
+  .check-box:checked::before {
+    left: 40px;
+  }
+
+  .card {
+    width: 590px;
+    height: 160px;
+    display: flex;
+    margin: 20px auto;
+  }
+  .inner-card {
+    width: 180px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.26);
+    margin-left: 4px;
+  }
+  .inner-card:hover {
+    width: 200px;
+    height: 160px;
+  }
+  .lollipop {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+  }
+  .card-head {
+    color: #3d3c31;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .body-copy-35 {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1px;
+    width: 78px;
+    text-align: left;
+  }
+  .body-copy-4 {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 156px;
+    text-align: left;
+  }
+  .main-coustomer {
+    width: 600px;
+    height: 220px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-header-text {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+  }
+  .my-sample-text-1 {
+    font-family: sans-serif;
+  }
+  .coustomer-pic img {
+    border-radius: 1000%;
+    margin-top: -35px;
+    height: 190px;
+    width: 200px;
+  }
+  .hex-code {
+    content: "\201C";
+    color: blue;
+
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 200px;
+  }
+  .my-sample-text {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 22px;
+    width: 366px;
+    text-align: left;
+  }
+  .main-footer {
+    width: 800px;
+
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .loved-by-users {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+  }
+  .lorem-ipsum-is {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 387px;
+    text-align: left;
+  }
+  .last-shape {
+    background-color: #0099ff;
+    border-radius: 3px;
+    width: 220px;
+    height: 48px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+  }
+}
+/* media query for small screen like tab and small screen laptop*/
+
+@media (min-width: 800px) and (max-width: 999px) {
+  .top-main {
+    padding-top: 50px;
+    width: 600px;
+
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+  }
+  .top-left {
+    width: 385px;
+    height: 250px;
+
+    box-sizing: border-box;
+    height: 230px;
+    margin-top: 70px;
+  }
+  .looking-for-a-lollip {
+    margin-top: 0px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 380px;
+    text-align: left;
+  }
+  .text-body {
+    margin-top: -15px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 380px;
+    text-align: left;
+  }
+  .bg {
+    background-color: #0099ff;
+    border-radius: 3px;
+    width: 170px;
+    height: 38px;
+  }
+  .cta-text {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .outline {
+    margin-left: 20px;
+    border: 2px solid #0099ff;
+    border-radius: 3px;
+    width: 170px;
+    height: 38px;
+  }
+  .top-right {
+    width: 351px;
+    height: 351px;
+  }
+  .top-right img {
+    width: 350px;
+    height: 350px;
+  }
+  .header-div {
+    margin: 20px auto;
+    background-image: linear-gradient(44.59deg, #d5e2e9 0%, #eaeef1 40%);
+    width: 680px;
+    height: 409px;
+  }
+  .content-div {
+    margin: 0px auto;
+    position: relative;
+    width: 500px;
+    top: -130px;
+  }
+  .content-div img {
+    width: 500px;
+  }
+
+  .header-text {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .pricing-text {
+    width: 400px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: center;
+    margin: 0px auto;
+    margin-top: -130px;
+  }
+  .testing {
+    width: 420px;
+
+    margin: 0px auto;
+  }
+  .lorem-ipsum-is-simpl {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 449px;
+    text-align: center;
+  }
+  .btn-main {
+    width: 380px;
+    margin: 30px auto;
+    display: flex;
+  }
+  .btn {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+    height: 40px;
+    color: #4a4a4a;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 165px;
+  }
+  .change-btn {
+    margin: 10px auto;
+    width: 200px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .check-box {
+    position: relative;
+    width: 60px;
+    height: 20px;
+    appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px #bebcbe;
+    transition: 0.5s;
+  }
+  .check-box:checked {
+    background: #c6c6c6;
+  }
+  .check-box::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: blue;
+    border-radius: 20px;
+    top: -5px;
+    left: 0px;
+    transition: 0.5s;
+  }
+  .check-box:checked::before {
+    left: 40px;
+  }
+
+  .card {
+    width: 590px;
+    height: 160px;
+    display: flex;
+    margin: 20px auto;
+  }
+  .inner-card {
+    width: 180px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.26);
+    margin-left: 4px;
+  }
+  .inner-card:hover {
+    width: 200px;
+    height: 160px;
+  }
+  .lollipop {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+  }
+  .card-head {
+    color: #3d3c31;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .body-copy-35 {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1px;
+    width: 78px;
+    text-align: left;
+  }
+  .body-copy-4 {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 156px;
+    text-align: left;
+  }
+  .main-coustomer {
+    width: 600px;
+    height: 220px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-header-text {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+  }
+  .my-sample-text-1 {
+    font-family: sans-serif;
+  }
+  .coustomer-pic img {
+    border-radius: 1000%;
+    margin-top: -35px;
+    height: 190px;
+    width: 200px;
+  }
+  .hex-code {
+    content: "\201C";
+    color: blue;
+
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 200px;
+  }
+  .my-sample-text {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 22px;
+    width: 366px;
+    text-align: left;
+  }
+  .main-footer {
+    width: 700px;
+    height: 300px;
+
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .group-img {
+    height: 300px;
+  }
+  .loved-by-users {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+  }
+  .lorem-ipsum-is {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 350px;
+    text-align: left;
+  }
+  .last-shape {
+    background-color: #0099ff;
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+  }
+}
+
+/*media query for mobile devices*/
+
+@media (max-width: 799px) {
+  .top-main {
+    padding-top: 50px;
+    width: 350px;
+
+    margin: 0px auto;
+    height: 530px;
+  }
+  .main {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+  }
+  .top-left {
+    width: 385px;
+    height: 250px;
+
+    box-sizing: border-box;
+    height: 230px;
+    margin-top: 70px;
+  }
+  .looking-for-a-lollip {
+    margin-top: 0px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 380px;
+    text-align: center;
+  }
+  .button-toggle {
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+
+    margin: 2px auto;
+  }
+  .text-body {
+    margin-top: -15px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 350px;
+    text-align: center;
+  }
+  .bg {
+    background-color: #0099ff;
+    border-radius: 3px;
+    width: 170px;
+    height: 38px;
+    margin-left: -3px;
+  }
+  .cta-text {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .outline {
+    margin-left: -2px;
+    border: 2px solid #0099ff;
+    border-radius: 3px;
+    width: 170px;
+    height: 38px;
+    margin-top: 5px;
+  }
+  .top-right {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    margin: 0px auto;
+  }
+  .top-right img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+  }
+  .header-div {
+    margin: 20px auto;
+    background-image: linear-gradient(44.59deg, #d5e2e9 0%, #eaeef1 40%);
+    width: 350px;
+    height: 300px;
+  }
+  .content-div {
+    margin: 0px auto;
+    position: relative;
+    width: 280px;
+    top: -190px;
+  }
+  .content-div img {
+    width: 280px;
+  }
+
+  .header-text {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .pricing-text {
+    width: 200px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    text-align: center;
+    margin: 0px auto;
+    margin-top: -170px;
+  }
+  .testing {
+    width: 310px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  .lorem-ipsum-is-simpl {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 300px;
+    text-align: left;
+  }
+  .btn-main {
+    width: 165px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+    height: 40px;
+    color: #4a4a4a;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 165px;
+  }
+  .change-btn {
+    margin: 10px auto;
+    width: 200px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .check-box {
+    position: relative;
+    width: 60px;
+    height: 20px;
+    appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px #bebcbe;
+    transition: 0.5s;
+  }
+  .check-box:checked {
+    background: #c6c6c6;
+  }
+  .check-box::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: blue;
+    border-radius: 20px;
+    top: -5px;
+    left: 0px;
+    transition: 0.5s;
+  }
+  .check-box:checked::before {
+    left: 40px;
+  }
+
+  .card {
+    width: 300px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .inner-card {
+    width: 180px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.26);
+    margin-left: 4px;
+    margin: 0px auto;
+  }
+  .inner-card:hover {
+    width: 200px;
+    height: 160px;
+  }
+  .lollipop {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+  }
+  .card-head {
+    color: #3d3c31;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .body-copy-35 {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1px;
+    width: 78px;
+    text-align: left;
+  }
+  .body-copy-4 {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 156px;
+    text-align: left;
+  }
+  .main-coustomer {
+    width: 200px;
+
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .top-header-text {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+  }
+  .my-sample-text-1 {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .coustomer-pic {
+    width: 100px;
+    height: 200px;
+    margin: 1px auto;
+  }
+  .coustomer-pic img {
+    border-radius: 1000%;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+  }
+  .hex-code {
+    content: "\201C";
+    color: blue;
+
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+  }
+  .tip-name {
+    width: 70px;
+    margin-left: 65px;
+    border: 1px solid black;
+  }
+  .my-sample-text {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 16px;
+
+    font-weight: 500;
+    line-height: 22px;
+    width: 200px;
+    text-align: center;
+  }
+  .main-footer {
+    width: 200px;
+
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .group-img {
+    margin-top: 5px;
+    height: 200px;
+  }
+  .loved-by-users {
+    color: #31373d;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+  }
+  .lorem-ipsum-is {
+    color: #8b8e91;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  .last-shape {
+    background-color: #0099ff;
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+  }
+}
